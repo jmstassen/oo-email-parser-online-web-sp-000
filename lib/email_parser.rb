@@ -18,4 +18,3 @@ class EmailAddressParser
     email_array = email_array.unique
   end
 end
-
