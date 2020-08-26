@@ -17,4 +17,5 @@ class EmailAddressParser
     email_array = email_addresses.split(/[ ,]+/)
     email_array = email_array.unique
   end
-  
+end
+
