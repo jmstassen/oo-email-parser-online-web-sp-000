@@ -6,14 +6,14 @@ class EmailAddressParser
 
   attr_accessor
 
-  def initialize(email_addresses)
+  def initialize
    parser = EmailAddressParser.new
   end
 
 
 
 
-  def parse(parser)
+  def parse(email_addresses)
     email_array = email_addresses.split(/[ ,]+/)
     email_array = email_array.unique
   end
