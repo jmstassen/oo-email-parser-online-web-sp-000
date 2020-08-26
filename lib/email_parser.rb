@@ -7,14 +7,14 @@ class EmailAddressParser
   attr_accessor
 
   def initialize(email_addresses)
-   parser = self
+   @parser = self
   end
 
 
 
 
   def parse
-    email_array = parser.split(/[ ,]+/)
+    email_array = @parser.split(/[ ,]+/)
     email_array = email_array.unique
   end
 end
